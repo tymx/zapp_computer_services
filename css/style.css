@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=B612+Mono|Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Audiowide&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
 /*
   Font declarations:
   font-family: 'Roboto', sans-serif;
@@ -208,7 +207,7 @@ input::placeholder {
 
 
 /* Desktops and laptops ----------- */
-@media only screen  and (min-width : 768px) {
+@media only screen  and (min-width : 667px) {
   #nav-bar{
     display: flex;
     flex-direction: row;
@@ -288,6 +287,12 @@ input::placeholder {
     margin-right: auto;
   }
 
+}
+
+@media screen and (max-width: 1023px) and (min-width: 649px) and (orientation : landscape) {
+  .banner #title{
+    top: 15%
+  }
 }
 
 @media only screen  and (max-width : 1350px) {
