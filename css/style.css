@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=B612+Mono|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
 /*
   Font declarations:
   font-family: 'Roboto', sans-serif;
@@ -96,9 +98,9 @@ h2{
 
 .banner h1{
   font-size: 2.2rem;
-  font-family: 'B612 Mono', monospace;
+  font-family: 'Audiowide', cursive;
   background: transparent;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 /* BUILD */
@@ -198,6 +200,13 @@ input::placeholder {
   Media Queries for smaller screens
 **/
 
+@media only screen  and (min-width : 648px) {
+  .banner #title{
+    top: 50%
+  }
+}
+
+
 /* Desktops and laptops ----------- */
 @media only screen  and (min-width : 768px) {
   #nav-bar{
@@ -241,9 +250,6 @@ input::placeholder {
   
   .banner h1{
     font-size: 3.2rem;
-    font-family: 'B612 Mono', monospace;
-    background: transparent;
-    text-transform: uppercase;
   }
 
   .row{
