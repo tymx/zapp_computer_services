@@ -1,2 +1,2 @@
 # zapp_computer_services
-I created this webpage following along the guidelines for the FreeCodeCamp Product Landing Page. I also practiced creating a logo with Inkscape. 
+I created this webpage following along the guidelines for the FreeCodeCamp Product Landing Page as practice with using basic HTML and CSS (no frameworks; just Flexbox and CSS Grid). I also practiced creating a logo with Inkscape as I wanted to create something original. The video used in the web page does not belong to me and is credited to the Youtube Channel "Brett Hayes". This webpage was made for educational purpose only.
