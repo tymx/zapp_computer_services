@@ -181,6 +181,10 @@ input::placeholder {
   font-family: 'Roboto', sans-serif;
   font-size: 1.2rem;
   padding: 5px;
+  /* Stop browers from styling button*/
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 } 
 
 #form #submit:hover{
