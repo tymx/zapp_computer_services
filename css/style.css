@@ -200,33 +200,15 @@ input::placeholder {
   text-align: center;
 }
 
-#build .anchor::before {
-  content: ' ';
-  display: block;
-  height: 220px;
-  width: 100vw;
-  margin-top: -220px;
-  visibility: hidden;
+.anchor a {
+  position: absolute;
+  left: 0px;
+  top: -220px;
 }
 
-#repair .anchor::before {
-  content: ' ';
-  display: block;
-  height: 220px;
-  width: 100vw;
-  margin-top: -220px;
-  visibility: hidden;
+.anchor {
+  position: relative;
 }
-
-#contact .anchor::before {
-  content: ' ';
-  display: block;
-  height: 220px;
-  width: 100vw;
-  margin-top: -220px;
-  visibility: hidden;
-}
-
 
 /** 
   Media Queries for smaller screens
@@ -235,33 +217,6 @@ input::placeholder {
 @media only screen  and (min-width : 648px) {
   .banner #title{
     top: 50%
-  }
-
-  #build .anchor::before {
-    content: ' ';
-    display: block;
-    height: 117px;
-    width: 100vw;
-    margin-top: -117px;
-    visibility: hidden;
-  }
-  
-  #repair .anchor::before {
-    content: ' ';
-    display: block;
-    height: 117px;
-    width: 100vw;
-    margin-top: -117px;
-    visibility: hidden;
-  }
-  
-  #contact .anchor::before {
-    content: ' ';
-    display: block;
-    height: 117px;
-    width: 100vw;
-    margin-top: -117px;
-    visibility: hidden;
   }
 
 }
@@ -348,69 +303,27 @@ input::placeholder {
     margin-right: auto;
   }
 
+  .anchor a {
+    position: absolute;
+    left: 0px;
+    top: -115px;
+  }
+
+}
+
+@media screen and (min-width: 736px){
+  .anchor a {
+    position: absolute;
+    left: 0px;
+    top: -115px;
+  }
 }
 
 @media screen and (max-width: 1023px) and (min-width: 649px) and (orientation : landscape) {
   .banner #title{
     top: 15%
   }
-
-  #build .anchor::before {
-    content: ' ';
-    display: block;
-    height: 117px;
-    width: 100vw;
-    margin-top: -117px;
-    visibility: hidden;
-  }
   
-  #repair .anchor::before {
-    content: ' ';
-    display: block;
-    height: 117px;
-    width: 100vw;
-    margin-top: -117px;
-    visibility: hidden;
-  }
-  
-  #contact .anchor::before {
-    content: ' ';
-    display: block;
-    height: 117px;
-    width: 100vw;
-    margin-top: -117px;
-    visibility: hidden;
-  }
-  
-}
-
-@media only screen and (min-width : 1024px){
-  #build .anchor::before {
-    content: ' ';
-    display: block;
-    height: 117px;
-    width: 100vw;
-    margin-top: -117px;
-    visibility: hidden;
-  }
-  
-  #repair .anchor::before {
-    content: ' ';
-    display: block;
-    height: 117px;
-    width: 100vw;
-    margin-top: -117px;
-    visibility: hidden;
-  }
-  
-  #contact .anchor::before {
-    content: ' ';
-    display: block;
-    height: 117px;
-    width: 100vw;
-    margin-top: -117px;
-    visibility: hidden;
-  }
 }
 
 @media only screen  and (max-width : 1350px) {
@@ -418,13 +331,4 @@ input::placeholder {
     margin-right: auto;
     margin-left: auto;
   }
-
-  .anchor::before {
-    content: " ";
-    display: block;
-    height: 117px;
-    /* width: 100vw; */
-    margin: -117px 0 0;
-    /* visibility: hidden; */
-  } 
 }
